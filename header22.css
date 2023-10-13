@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+#bg-image{
+    background-image: url("images/Background.png");
+    height: 100%;
+
+    background-color:  rgb(105, 96, 232);
+    background-color: rgba(60, 31, 189, 0.4);
+}
+
+nav{
+    height: 120px;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.logo{
+    padding-left: 100px;
+    color: blue;
+}
+
+.account-in {
+    padding-right: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 423px;
+}
+
+.nav-content{
+    width: 720px;
+    display: block;
+    justify-content:space-between;
+    align-items: center;
+    margin: 20px;
+}
+
+.nav-content a{
+    padding: 20px;
+    text-decoration: none;
+    color: rgb(187, 195, 199);
+}
+
+.account-in i{
+    color:rgb(187, 195, 199) ;
+    padding-left: 83px;
+}
+
+.account-in a{
+    text-decoration: none;
+}
+
+.account-in button{
+    height: 2.5rem;
+    width: 6rem;
+}
+
+.account-in #login{
+    background-color: white;
+    border: none;
+}
+
+.account-in #signup{
+    background-color: white;
+    border: 0.5px solid gainsboro;
+    border-radius: 5rem;
+}
+
+#container .p1{
+    font-size: 50px;
+    text-align: center;
+}
+
+#container .p2{
+    text-align: center;
+    padding-top: 18px;
+}
+
+#my-form{
+    margin-top: 8rem;
+    margin-left: 23rem;
+    
+}
+
+#my-form .p3{
+    margin-left: 21rem;
+    /* margin-top: 20rem; */
+    font-size: 12px;
+    padding-top: 2rem;
+}
+
+#my-form input{
+    width: 15rem;
+    height: 2.5rem;
+    border-radius: 5rem;
+    border: 0.5px solid gainsboro;
+}
+
+#my-form button{
+    height:2.5rem ;
+    width: 10rem;
+    border-radius: 5rem;
+    border: 0.5px solid rgb(214, 51, 79);
+    background-color:rgb(214, 51, 79) ;
+    color: white;
+    margin-left: 2rem;
+}
+
+#my-form .passwd{
+    margin-left: 2rem;
+}
+
+#my-form .icons{
+    margin-top: 2rem;
+    margin-left: 13rem;
+}
+
+.icons i{
+    padding-left: 3rem;
+    font-size: 30px;
+}
