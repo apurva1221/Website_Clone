@@ -1,0 +1,166 @@
+body{
+    background-color: rgb(20, 20, 114);
+}
+
+nav{
+    height: 120px;
+    background-color: rgb(20, 20, 114);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.logo{
+    padding-left: 168px;
+    color: white;
+}
+
+.account-in {
+    padding-right: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 550px;
+}
+
+.account-in #overview{
+    color: blue;
+}
+
+.account-in a{
+    text-decoration: none;
+    color: white;
+}
+
+.account-in button{
+    height: 35px;
+    border-radius: 17px;
+    background-color:rgb(238, 10, 82);
+    color: white;
+    border: 1px solid rgb(238, 10, 82);
+}
+
+
+.row{
+    display: flex;
+    flex-direction: row;
+}
+
+.col-8 .p1{
+    width: 25rem;
+    font-size: 52px;
+    padding-left: 10rem;
+    margin-top: 1rem;
+    color: white;
+}
+
+.col-8 .p2{
+    padding-left: 10rem;
+    color: white;
+    font-size: 20px;
+}
+
+.col-8 .p3{
+    margin-left: 10rem;
+    margin-top: 1rem;
+    font-size: 11px;
+    color: rgb(187, 195, 199);
+}
+
+#b1{
+    margin-left: 10rem;
+    border: 0.5px solid rgb(245, 79, 168);
+    border-radius: 2rem;
+    background-color: rgb(245, 79, 168);
+    color: white;
+    height: 40px;
+    width: 8rem;
+    margin-top: 13px;
+}
+
+.col-4 img{
+    width: 18rem;
+    height: 18rem;
+    border-radius: 5rem;
+    margin-top: 5rem;
+    margin-left: 10rem;
+}
+
+.col-4 #form-input{
+    height: 28rem;
+    width: 25rem;
+    background-color: white;
+    margin-left: 65px;
+    border-radius: 10px;
+}
+
+#form-input h1{
+    text-align: center;
+    padding-top: 12px;
+}
+
+#form-input input{
+    height: 28px;
+    width: 15rem;
+    margin-left: 85px;
+    border: 0.5px solid gainsboro;
+    border-radius: 5rem;
+    padding-left: 1rem;
+}
+
+#form-input .p3{
+    font-size: 14px;
+    margin-left: 3rem;
+    margin-top: 5rem;
+    
+}
+
+#form-input .p4{
+    margin-left: 8rem;
+    font-size: 14px;
+}
+
+#form-input span{
+    margin-left: 6rem;
+    margin-top: -4rem;
+    display: flex;
+    /* justify-content: space-between;
+    align-items: center; */
+}
+
+#form-input span i{
+    margin-top: 5rem;
+    
+}
+
+#form-input #b2{
+    height: 35px;
+    width: 15rem;
+    margin-left: 90px;
+    margin-top: 2rem;
+    border: 0.5px solid gainsboro;
+    border-radius: 5rem;
+    padding-left: 1rem;
+    color: white;
+    background-color: blue;
+    border: 0.5px solid blue;
+}
+
+#form-input #b3{
+    height: 35px;
+    width: 15rem;
+    margin-left: 90px;
+    margin-top: 2rem;
+    border: 0.5px solid gainsboro;
+    border-radius: 5rem;
+    padding-left: 1rem;
+    color: white;
+    background-color: blue;
+    border: 0.5px solid blue;
+}
+
+
+
+
+

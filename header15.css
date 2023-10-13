@@ -1,0 +1,77 @@
+
+
+nav{
+    height: 120px;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.logo{
+    padding-left: 100px;
+}
+
+.nav-content{
+    width: 422px;
+    display: block;
+    justify-content:space-between;
+    align-items: center;
+    margin: 20px;
+}
+
+.nav-content a{
+    padding: 20px;
+    text-decoration: none;
+    color: rgb(187, 195, 199);
+}
+
+.account{
+    padding-right: 100px;
+}
+
+.account button{
+    height: 30px;
+    width: 80px;
+}
+
+#login{
+   border: none;
+   background-color: white;
+   color: aqua;
+}
+
+#signup{
+    background-color: aqua;
+    border: 0.5px solid aqua;
+    color: white;
+    border-radius: 5rem;
+}
+
+#container{
+    margin-top: -2rem;
+}
+
+#container .p1{
+    font-size: 40px;
+    /* margin-left: -4rem; */
+    text-align: center;
+}
+
+#container .p2{
+    text-align: center;
+    /* padding-top: 2rem; */
+    margin-top: -15px;
+    color: gainsboro;
+}
+
+#container .mk-account{
+    margin-left: 37rem;
+    height: 38px;
+    width: 150px;
+    background-color: rgb(202, 51, 76);
+    border: 0.5px solid rgb(202, 51, 76);
+    border-radius: 5rem;
+    color: white;
+}

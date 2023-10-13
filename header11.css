@@ -1,0 +1,93 @@
+
+
+nav{
+    height: 120px;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.logo{
+    padding-left: 168px;
+    color: blue;
+}
+
+.account-in {
+    padding-right: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 375px;
+}
+
+.account-in a{
+    text-decoration: none;
+    color: black;
+}
+
+.account-in button{
+    height: 35px;
+    width: 80px;
+    border-radius: 17px;
+    background-color:blue;
+    color: white;
+    border: 1px solid blue;
+}
+
+
+.row{
+    display: flex;
+    flex-direction: row;
+}
+
+.col-8 .p1{
+    width: 19rem;
+    font-size: 49px;
+    padding-left: 10rem;
+    padding-top: 0rem;
+}
+
+.col-8 .p2{
+    padding-left: 10rem;
+    margin-top: -30px;
+    color: rgb(187, 195, 199);
+}
+
+.col-8 .p3{
+    margin-left: 10rem;
+    margin-top: 1rem;
+    font-size: 11px;
+    color: rgb(187, 195, 199);
+}
+
+#b1{
+    margin-left: 10rem;
+    border: 0.5px solid aqua;
+    border-radius: 2rem;
+    background-color: aqua;
+    color: white;
+    height: 40px;
+    width: 8rem;
+    margin-top: 13px;
+}
+
+#b2{
+    color: black;
+    background-color: white;
+    border: 0.5px solid white;
+    border-radius: 2rem;
+    margin-left: 0rem;
+    height: 40px;
+    width: 8rem;
+}
+
+
+.col-4 img{
+    width: 22rem;
+    height: 35rem;
+    border-radius: 5rem;
+    margin-top: -2rem;
+    margin-left: 5rem;
+}

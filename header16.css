@@ -1,0 +1,111 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+#bg-image{
+    background-image:url("images/bg.png") ;
+    
+    /* filter: blur(8px);
+    -webkit-filter: blur(8px); */
+
+    height: 100%;
+
+    /* background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; */
+    background-color:  rgb(105, 96, 232);
+    background-color: rgba(60, 31, 189, 0.4);
+}
+
+nav{
+    position: absolute;
+    height: 120px;
+    /* background-color:  rgb(105, 96, 232); */
+    /* background-color: rgba(60, 31, 189, 0.4); */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* color: white; */
+    top: 0rem;
+    width: 83rem;
+}
+
+.logo{
+    padding-left: 100px;
+    color: white;
+}
+
+.account-in {
+    padding-right: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 395px;
+}
+
+.nav-content{
+    width: 720px;
+    display: block;
+    justify-content:space-between;
+    align-items: center;
+    margin: 20px;
+}
+
+.nav-content a{
+    padding: 20px;
+    text-decoration: none;
+    color: white;
+}
+
+.account-in a{
+    text-decoration: none;
+    color: rgb(187, 195, 199);
+}
+
+.account-in button{
+    height: 35px;
+    border-radius: 17px;
+    background-color:aqua;
+    color: white;
+    border: 1px solid aqua;
+}
+
+#buy{
+    margin-left: 13rem;
+}
+
+#container{
+    position: absolute;
+    
+}
+
+.col-8 .p1{
+    position: absolute;
+    top: 5rem;
+    font-size: 45px;
+    width: 50rem;
+    margin-left: 15rem;
+    color: white;
+}
+
+.col-8 .p2{
+    position: absolute;
+    top: 15rem;
+    margin-left: 15rem;
+    color: white;
+    line-height: 25px;
+}
+
+.col-4 img{
+    position: absolute;
+    right: 0rem;
+    top: 8rem;
+    height: 25rem;
+    width: 35rem;
+}

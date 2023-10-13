@@ -1,0 +1,51 @@
+nav{
+    height: 120px;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.logo{
+    padding-left: 100px;
+    color: blue;
+}
+
+.account-in {
+    padding-right: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 300px;
+}
+
+.nav-content{
+    width: 720px;
+    display: block;
+    justify-content:space-between;
+    align-items: center;
+    margin: 20px;
+}
+
+.nav-content a{
+    padding: 20px;
+    text-decoration: none;
+    color: rgb(187, 195, 199);
+}
+
+.account-in i{
+    color:rgb(187, 195, 199) ;
+    padding-left: 83px;
+}
+
+#container h1{
+    max-width: 40rem;
+    font-size: 52px;
+    text-align: center;
+    padding-left: 20rem;
+}
+
+#container iframe{
+    padding-left: 22rem;
+}

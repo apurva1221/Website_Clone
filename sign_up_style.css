@@ -1,0 +1,86 @@
+
+body{
+    background-color: rgb(50, 50, 155);
+}
+
+nav{
+    height: 120px;
+    /* background-color: #fff; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.logo{
+    padding-left: 100px;
+    color: white;
+}
+
+.account-up {
+    padding-right: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 300px;
+}
+
+.account-up a{
+    text-decoration: none;
+    color: white;
+}
+
+.account-up button{
+    height: 35px;
+    border-radius: 17px;
+    background-color: blue;
+    color: white;
+    border: 1px solid blue;
+}
+
+#container .p1{
+    margin-left: 520px;
+    max-width: 284px;
+    text-align: center;
+    color: white;
+    font-size :37px;
+    font-weight: bolder;
+}
+
+.p2{
+    text-align: center;
+    color: white;
+    line-height: 10px;
+    padding-top: 12px;
+}
+
+#signup-here{
+    margin-left: 33rem;
+    padding-top: 4rem;
+}
+
+#signup-here input{
+    height: 32px;
+    width: 250px;
+    border-radius: 50px;
+    border: 0.5px solid rgb(187, 195, 199);
+    background-color: rgb(50, 50, 155);
+    text-align:left;
+    
+}
+
+#signup-here button{
+    height: 35px;
+    width: 70px;
+    border-radius: 2rem;
+    border: 0.5px solid aqua;
+    background-color: aqua;
+    color: white;
+}
+
+#signup-here p{
+    color:rgb(229, 231, 231) ;
+    font-size: 12px;
+    padding-left: 38px;
+    padding-top: 12px;
+}

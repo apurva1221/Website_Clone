@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(20, 20, 114);
+}
+
+nav{
+    height: 120px;
+    background-color: rgb(20, 20, 114);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.logo{
+    padding-left: 100px;
+    color: white;
+}
+
+.account-in {
+    padding-right: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 300px;
+}
+
+
+.account-in a{
+    text-decoration: none;
+    color: white;
+}
+
+#video iframe{
+    margin-left: 18rem;
+    margin-top: 10rem;
+}
+
+.col-4{
+    margin-left: 30rem;
+    
+    padding-right: 5rem;
+    align-items: center;
+}
+
+.col-4 button{
+    margin-left: 23rem;
+    height: 40px;
+    width: 8rem;
+    background-color: aqua;
+    border: 0.5px solid aqua;
+    color: white;
+    border-radius: 5rem;
+}
+
+.col-4 p{
+    margin-left: 24rem;
+    font-size: 11px;
+    padding-top: 1rem;
+    color:rgb(219, 216, 216);
+}
+
+/* .col-8{
+    color: white;
+} */
+
+.col-8 .p1{
+    color: white;
+    margin-left: 16rem;
+    font-size: 35px;
+}
+
+.col-8 .p2{
+    color: rgb(219, 216, 216);
+    margin-left: 18rem ;
+    padding-top: 2rem;
+    font-size: 12px;
+}
